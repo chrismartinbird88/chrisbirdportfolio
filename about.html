@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Chris Bird Portfolio - About Me</title>
+</head>
+<body>
+    <nav class="navbar has-shadow is-white">
+        <div class="navbar-brand">
+            <a href="index.html" class="navbar-item">
+                <img src="assets/Logo.webp" alt="Chris Bird Logo" style="max-height: 75px;">
+            </a>
+            <a class="navbar-burger" id="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+        </div>
+        <div class="navbar-menu" id="nav-links">
+            <div class="navbar-start">
+                <a class="navbar-item" href="index.html">
+                    Home
+                  </a>
+            
+                  <a class="navbar-item" href="about.html">
+                    About Me
+                  </a>
+        
+                  <a class="navbar-item" href="projects.html">
+                    Projects
+                  </a>
+        
+                  <a class="navbar-item" href="services.html">
+                    Services
+                  </a>
+        
+                  <a class="navbar-item" href="contact.html">
+                    Contact Me
+                  </a>
+            </div>
+        </div>
+    </nav>
+    <section class="section">
+      <div class="container">
+        <div class="row">
+          <h1>ABOUT ME</h1>
+        </div>
+        <div class="row">
+          <h2>Here you can find out more about me and my qualifications.</h2>
+        </div>
+      </div>
+      <div class="container">
+        <div class="tile is-parent">
+          <article class="tile is-child notification is-white has-shadow">
+            <p class="title">About Me</p>
+            <div class="content">
+              <div class="columns">
+                <div class="column is-6">
+                  <p id="bio">My name Chris Bird and I am passionate about Web Design. I am a freelance Web Designer based in Durban, South Africa. My skills include but aren't limited to the following:</p>
+                    <ul>
+                      <li>Bootstrap</li>
+                      <li>HTML</li>
+                      <li>CSS</li>
+                      <li>WordPress</li>
+                    </ul>
+                </div>
+                <div class="column is-6">
+                  <img class="tile-image" src="assets/chrisbird.webp" alt="Chris Bird Web Designer based in Durban, South Africa">
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="content has-text-centered">
+          <h2 class="title">My Qualifications</h2>
+          <p>I have completed qualifications at the following institutions.(Click on each institution's name to view the applicable qualification's details.):</p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="columns">
+          <div class="column">
+            <div class="tabs is-boxed">
+              <ul>
+                <li class="is-active" data-target="cti">
+                  <a>CTI</a>
+                </li>
+                <li data-target="lsbm">
+                  <a>LSBM</a>
+                </li>
+                <li data-target="herriot">
+                  <a>Herriot-Watt</a>
+                </li>
+              </ul>
+            </div>
+            <div class="px-2" id="tab-content">
+              <div id="cti">
+                <h2 class="title"><mark>CTI(Computer Training Institute)</mark></h2>
+                <p><mark>I have completed a course in Information Systems Internet Development(ISID) at CTI(Computer Training Institute) now known as the Pearson Institute.</mark></p>
+                <p><mark>This course covered the following languages:</mark></p>
+                <ul class="px-2">
+                  <li><mark>JAVA</mark></li>
+                  <li><mark>HTML(HyperText Markup Language)</mark></li>
+                  <li><mark>CSS(Cascading StyleSheets)</mark></li>
+                  <li><mark>XML(eXtensible Markup Language)</mark></li>
+                  <li><mark>Perl</mark></li>
+                  <li><mark>Flash</mark></li>
+                  <li><mark>SQL(Structured Query Language)</mark></li>
+                </ul>
+              </div>
+              <div id="lsbm" class="is-hidden">
+                <h2 class="title"><mark>LSBM(London School of Business Management)</mark></h2>
+                <p><mark>I have completed a Project Management course that covered all aspects of managing projects such as:</mark></p>
+                <ul>
+                  <li><mark>Building a team.</mark></li>
+                  <li><mark>Identifying all project constraints(eg. Time, Cost etc.)</mark></li>
+                  <li><mark>Managing a project's scope.</mark></li>
+                  <li><mark>Project planning</mark></li>
+                  <li><mark>Etc.</mark></li>
+                </ul>
+              </div>
+              <div id="herriot" class="is-hidden">
+                <h2 class="title"><mark>Herriot-Watt University</mark></h2>
+                <p><mark>I have completed a Bachelor of Science Degree in Information Systems. This degree covered the following subjects:</mark></p>
+                <ul>
+                  <li><mark>Software Engineering</mark></li>
+                  <li><mark>Operations Management</mark></li>
+                  <li><mark>Knowledge Management</mark></li>
+                  <li><mark>Professional Development</mark></li>
+                  <li><mark>Operating Systems and Concurrency</mark></li>
+                  <li><mark>Computer Graphics</mark></li>
+                  <li><mark>Artificial Intelligence</mark></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>Copyright 2022 Chris Bird</p>
+      </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>

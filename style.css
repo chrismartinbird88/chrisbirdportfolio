@@ -1,0 +1,132 @@
+body{
+    background-color: lightgray;
+}
+
+.title{
+    text-align: center;
+}
+
+h1{
+    font-weight: bolder;
+    font-size: 2em;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.card{
+    border-radius: 25%;
+    padding: 2%;
+    box-shadow: 5px 5px 5px 5px darkgrey;
+}
+
+.card:hover{
+    color: whitesmoke;
+    background-color: dimgrey;
+}
+
+.card-header{
+    box-shadow: none;
+}
+
+p{
+    font-size: 1.3em;
+}
+
+.card-header-title{
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-left: 35%;
+}
+
+.card-image{
+    margin-left: 5%;
+    width: 90%;
+}
+
+.card-footer{
+    box-shadow: none;
+    border: none;
+}
+
+.card-footer a{
+    color: orange;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.title{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.tile{
+    border-radius: 10%;
+    min-width: fit-content;
+    min-height: fit-content;
+    text-align: center;
+}
+
+#bio{
+    vertical-align: middle;
+}
+
+li{
+    font-size: 1.3em;
+    list-style: circle;
+}
+
+#cti{
+    background-image: url("assets/grad.gif");
+    background-size: cover;
+    padding: 5%;
+    border-radius: 10%;
+}
+
+#lsbm{
+    background-image: url("assets/grad1.gif");
+    background-size: cover;
+    padding: 10%;
+    border-radius: 10%;
+}
+
+#herriot{
+    background-image: url("assets/grad2.gif");
+    background-size: cover;
+    padding: 10%;
+    border-radius: 10%;
+}
+
+mark{
+    background-color: white;
+    font-size: 1.4em;
+    opacity: 75%;
+    border-radius: 15%;
+}
+
+article{
+    width: 100%;
+    box-shadow: 5px 5px 5px 5px darkgray;
+}
+
+table{
+    text-align: left;
+    font-size: 1.5em;
+    margin-left: 15%;
+}
+
+.prpject-image{
+    width: 300px;
+    height: 250px;
+}
+
+.project-image:hover{
+    border: 3px solid yellow;
+}
+
+a:hover{
+    color: yellow;
+}
