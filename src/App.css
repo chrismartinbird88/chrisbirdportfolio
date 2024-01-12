@@ -1,0 +1,128 @@
+/* General Styles */
+
+*{
+  padding: 0%;
+  margin: 0%;
+  text-align: center;
+  background: black;
+  color: #ffffff;
+}
+
+p{
+  font-size: 1.3em;
+  font-weight: 500;
+}
+
+.box{
+  height: fit-content;
+  width: 100%;
+}
+
+.backLink{
+  font-size:25px;
+}
+
+/* NavBar Styles */
+
+.navbar-nav .nav-link{
+  margin-left:5px;
+  margin-right:5px;
+}
+
+.navbar-nav .nav-link.active{
+  background: #ffffff;
+}
+
+.navbar-toggler-icon{
+  background:white;
+  color:#888888
+}
+
+/* Home Styles */
+
+.nav-link{
+  color: #ffffff;
+  background: #0d0d0d;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+.nav-link:hover{
+  color: #0d0d0d;
+  background: #ffffff;
+}
+
+.nav-link:active{
+  color: #0d0d0d;
+  background: #ffffff;
+}
+
+.textbox{
+  padding-top: 12%;
+}
+
+.img-fluid{
+  max-height: 376px;
+}
+
+/* About Styles */
+
+ul, li{
+  text-align: left;
+}
+
+/* Qualifications Styles */
+
+.carousel-inner .carousel-item{
+  height: 600px;
+  font-size: 0.9em;
+  background-image: url('./assets/img/grad.gif');
+  background-size: cover;
+}
+
+.carousel-caption, h2, p, ul, li{
+  background: none;
+}
+
+h2 mark{
+  font-size: 0.95em;
+}
+
+mark{
+  background: #ffffff;
+  color: #0d0d0d;
+}
+
+/* Services */
+
+.serviceImage{
+  height:150px;
+  width:150px;
+  display:inline;
+}
+
+/* Projects Styles */
+
+.accordion-body{
+  padding: 30px;
+}
+
+a .projectImage{
+  width: 250px;
+  height: 250px;
+  margin-top: 5px;
+  border:solid 2px white;
+  border-radius: 20px;
+}
+
+/* Contact */
+
+.contactImage{
+  margin-left:5px;
+  margin-right:5px;
+}
+
+input, textarea{
+  background: #ffffff;
+  color: #000000;
+}
